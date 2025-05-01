@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MEPHISTO Project – ANR JCJC</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <header class="bg-blue-900 text-white p-6">
+    <div class="max-w-5xl mx-auto">
+      <h1 class="text-3xl font-bold">MEPHISTO</h1>
+      <p class="text-lg italic">MEthods for Parsimonious HIerarchically STructured Optimization</p>
+      <p class="mt-1 text-sm">ANR JCJC 2024–2028 | PI: Elisa Riccietti, ENS Lyon</p>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-10 space-y-10">
+    <section>
+      <h2 class="text-2xl font-semibold mb-2">Project Overview</h2>
+      <p>
+        MEPHISTO is a research project aiming to develop mathematically founded, resource-efficient optimization methods
+        for large-scale machine learning and signal processing. The project focuses on building and exploiting <strong>hierarchical structures</strong>—
+        in data, models, algebra, and numerical precision—to achieve a balance between <strong>accuracy</strong> and <strong>parsimony</strong>.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="text-2xl font-semibold mb-2">Research Axes</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li><strong>Axis A:</strong> Physical and geometrical hierarchies in imaging and PDEs.</li>
+        <li><strong>Axis B:</strong> Structural hierarchies in neural network architectures and datasets.</li>
+        <li><strong>Axis C:</strong> Hierarchical algebraic tools (e.g., butterfly factorizations).</li>
+        <li><strong>Axis D:</strong> Mixed numerical precision and dynamic quantization strategies.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="text-2xl font-semibold mb-2">Goals</h2>
+      <ul class="list-disc list-inside space-y-1">
+        <li>Reduce the computational cost of DNN training and inference.</li>
+        <li>Enable efficient multiresolution image restoration.</li>
+        <li>Design low-resource algorithms with rigorous error analysis.</li>
+        <li>Bridge variational optimization and deep learning with hierarchical methods.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="text-2xl font-semibold mb-2">Team</h2>
+      <p>
+        <strong>Principal Investigator:</strong> Elisa Riccietti (MCF, ENS Lyon)<br/>
+        <strong>Collaborators:</strong> Théo Mary (LIP6–Sorbonne), Nicolas Brisebarre (ENS Lyon), and others<br/>
+        <strong>Funding:</strong> ANR JCJC 2024–2028<br/>
+        <strong>Involvement:</strong> 1 PhD, 1 Postdoc, collaborations with OCKHAM, SISYPHE, PEQUAN, and TARAN teams.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="text-2xl font-semibold mb-2">Resources</h2>
+      <ul class="list-disc list-inside">
+        <li><a href="https://project.inria.fr/leanai/" class="text-blue-600 underline">LeanAI Project (CominLabs)</a></li>
+        <li><a href="https://faust.inria.fr/" class="text-blue-600 underline">FAµST Library</a></li>
+        <li><a href="https://deepinv.github.io/deepinv/" class="text-blue-600 underline">DeepInv</a></li>
+        <li><a href="https://github.com/benchopt/benchopt" class="text-blue-600 underline">BenchOpt</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="bg-gray-100 text-center p-4 text-sm text-gray-500">
+    © 2024 MEPHISTO Project — Coordinated by Elisa Riccietti at ENS Lyon
+  </footer>
+</body>
+</html>
